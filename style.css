@@ -1,4 +1,4 @@
-body {
+body{
 
     background-color: rgb(240, 217, 195);
 }
@@ -15,19 +15,62 @@ body {
 
 }
 
-#Eassimqueacabavidro{
+#tronodevidro{
+
     float: left;
     height: 420px;
     width: 327px;
-
-
+    border-radius: 7px 0 0 7px;
 }
 
 .produtoinfo{
-    float: 300px;
+    float: left;
     height: 420px;
     width: 327px;
     border-radius: 0 7px 10px 7px;
 background-color: azure;
 
+}
+.produtotexto{
+    height: 300px;
+    width: 327px;
+
+}
+
+
+.produtotexto h1 {
+    margin: 0 0 0 0 38px;
+    padding-top: 1px;
+    font-size: 34px;
+    color: azure;
+
+}
+
+.produtotexto h1,
+.botaopreco p {
+
+    font-family:'benthman', serif;
+
+}
+
+.produtotexto h2 {
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: 'Raleway' sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:azure;
+
+}
+
+.produtotexto p{
+    height: 225px;
+    padding-bottom: 100px;
+    margin: 0 0 47px 38px;
+    font-family: 'playfair display', serif;
+    color:azure;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    
 }
